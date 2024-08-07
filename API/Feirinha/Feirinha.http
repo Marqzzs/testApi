@@ -1,0 +1,6 @@
+@Feirinha_HostAddress = http://localhost:5240
+
+GET {{Feirinha_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

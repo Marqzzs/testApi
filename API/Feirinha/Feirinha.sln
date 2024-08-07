@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feirinha", "Feirinha.csproj", "{F117A8DB-1508-4CE7-9795-2C20E632248E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApixUnit", "..\TestApixUnit\TestApixUnit.csproj", "{21BB4CB1-BA22-42BA-B566-50B4C2C6C314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F117A8DB-1508-4CE7-9795-2C20E632248E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F117A8DB-1508-4CE7-9795-2C20E632248E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F117A8DB-1508-4CE7-9795-2C20E632248E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F117A8DB-1508-4CE7-9795-2C20E632248E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BB4CB1-BA22-42BA-B566-50B4C2C6C314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BB4CB1-BA22-42BA-B566-50B4C2C6C314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BB4CB1-BA22-42BA-B566-50B4C2C6C314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BB4CB1-BA22-42BA-B566-50B4C2C6C314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8D2B1D-AC57-4246-96B4-AF516BF9E1E8}
+	EndGlobalSection
+EndGlobal
