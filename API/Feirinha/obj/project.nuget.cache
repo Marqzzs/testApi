@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oJUNk2o+RNK3tB9KA7NkZj6Un51omXAcWcy+UqP+9ukRjAIliPEeEeyo1arHhY7W6zGBOk1Hrtwd9VD0uWKq1g==",
+  "dgSpecHash": "vavXnByTRT1Rwb8n1IdphtteaN1dHi4cPUPg/qdOqdFZY66Gt5IfXGxcUMJh3SfMBJ9HptO1oLpRIV3HHiBooQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\Feirinha.csproj",
+  "projectFilePath": "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\Feirinha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\55358961879\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\55358961879\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

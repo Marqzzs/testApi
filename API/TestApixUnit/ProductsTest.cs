@@ -73,6 +73,7 @@ namespace TestApixUnit
         [Fact]
         public void Post()
         {
+            //Arrange
             Products products = new Products { IdProduct = Guid.NewGuid(), Name = "Kiwi", Price = 0.50m };
 
             var productList = new List<Products>();
@@ -81,14 +82,17 @@ namespace TestApixUnit
 
             mockRepository.Setup(x => x.Post(products)).Callback<Products>(p => productList.Add(products));
 
+            //Act
             mockRepository.Object.Post(products);
 
+            //Assert
             Assert.Contains(products, productList);
         }
 
         [Fact]
         public void Delete()
         {
+            //Arrange
             Products products = new Products { IdProduct = Guid.NewGuid(), Name = "Kiwi", Price = 0.50m };
 
             var productList = new List<Products>();
@@ -97,33 +101,43 @@ namespace TestApixUnit
 
             mockRepository.Setup(x => x.Delete(products.IdProduct)).Callback<Guid>(p => productList.Remove(products));
 
+            //Act
             mockRepository.Object.Delete(products.IdProduct);
 
+
+            //Assert
             Assert.DoesNotContain(products, productList);
         }
 
         [Fact]
         public void Patch()
         {
+            //Arrange
             var originalProduct = new Products { IdProduct = Guid.NewGuid(), Name = "Melancia", Price = 10 };
-            var updatedProduct = new Products { IdProduct = Guid.NewGuid(), Name = "Melancia Atualizada", Price = 12 };
+            var updatedProduct = new Products { IdProduct = originalProduct.IdProduct, Name = "Melancia Atualizada", Price = 12 };
 
             var productList = new List<Products> { originalProduct };
 
             var mockRepository = new Mock<IProductsRepository>();
 
-            mockRepository.Setup(x => x.Patch(originalProduct,originalProduct.IdProduct)).Callback<Products, Guid>((prod, Guid) =>
+            mockRepository.Setup(x => x.Patch(It.IsAny<Products>(), It.IsAny<Guid>())).Callback<Products, Guid>((prod, Guid) =>
             {
-                var productUpdate = productList.Find(p => p.IdProduct == updatedProduct.IdProduct);
+                var productUpdate = productList.Find(p => p.IdProduct == Guid);
 
                 if (productUpdate != null)
                 {
+                    productUpdate.IdProduct = updatedProduct.IdProduct;
                     productUpdate.Name = updatedProduct.Name;
                     productUpdate.Price = updatedProduct.Price;
                 }
             });
 
-            var productInList = productList.Find(p => p.IdProduct == updatedProduct.IdProduct);
+            //Act
+
+            mockRepository.Object.Patch(updatedProduct, originalProduct.IdProduct);
+
+            //Assert
+            var productInList = productList.Find(p => p.IdProduct == originalProduct.IdProduct);
             Assert.NotNull(productInList);
             Assert.Equal("Melancia Atualizada", productInList.Name);
             Assert.Equal(12, productInList.Price);

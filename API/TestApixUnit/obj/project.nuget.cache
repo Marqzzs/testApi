@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kZfLcPFMn2j/g33Gm9Hp+bEm/SBjT+hbPT5mx0w6r8VD+qQpUwgi2cfF+KJ81EHUSepzEe+IJOkoXoXt8LIzAA==",
+  "dgSpecHash": "fn3c52QgbVXgJB53Q3NZirbBR/H4rsuoaQmOtJERD2ySNKKVEq9Y++ofczTArowBGvPttB31+oeIR8cNs2OzgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\55358961879\\Desktop\\API\\TestApixUnit\\TestApixUnit.csproj",
+  "projectFilePath": "C:\\Users\\55358961879\\Desktop\\testApi\\API\\TestApixUnit\\TestApixUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\55358961879\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\55358961879\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

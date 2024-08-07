@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Feirinha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f38e6221fa94c7ad674367ff8e0b7f3e11d25893")]
 [assembly: System.Reflection.AssemblyProductAttribute("Feirinha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Feirinha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

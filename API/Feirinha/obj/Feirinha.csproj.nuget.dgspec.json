@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\Feirinha.csproj": {}
+    "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\Feirinha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\Feirinha.csproj": {
+    "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\Feirinha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\Feirinha.csproj",
+        "projectUniqueName": "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\Feirinha.csproj",
         "projectName": "Feirinha",
-        "projectPath": "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\Feirinha.csproj",
+        "projectPath": "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\Feirinha.csproj",
         "packagesPath": "C:\\Users\\55358961879\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\55358961879\\Desktop\\API\\Feirinha\\obj\\",
+        "outputPath": "C:\\Users\\55358961879\\Desktop\\testApi\\API\\Feirinha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\55358961879\\AppData\\Roaming\\NuGet\\NuGet.Config",
